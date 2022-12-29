@@ -57,6 +57,7 @@
 		25FD7EBC295C58C50080CA69 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		25FD7EC2295CA37C0080CA69 /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FD7EC4295CA37C0080CA69 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
+		25FD7ECD295DF30F0080CA69 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 		25FD7E862955AE2A0080CA69 = {
 			isa = PBXGroup;
 			children = (
+				25FD7ECD295DF30F0080CA69 /* README.md */,
 				25FD7E922955AE2A0080CA69 /* EssentialFeed */,
 				25FD7E9E2955AE2B0080CA69 /* EssentialFeedTests */,
 				25FD7EC3295CA37C0080CA69 /* EssentialFeedAPIEndToEndTests */,
