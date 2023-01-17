@@ -178,7 +178,7 @@
 		2537F59A2976C73900524198 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				2537F5AF2976F8F800524198 /* Core Data */,
+				2537F5AF2976F8F800524198 /* CoreData */,
 				2537F59B2976C74400524198 /* Codable */,
 			);
 			path = Infrastructure;
@@ -200,13 +200,13 @@
 			path = EssentialFeedCacheIntegrationTests;
 			sourceTree = "<group>";
 		};
-		2537F5AF2976F8F800524198 /* Core Data */ = {
+		2537F5AF2976F8F800524198 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				2537F5B02976F91D00524198 /* CoreDataFeedStore.swift */,
 				2537F5B22976FA5100524198 /* FeedStore.xcdatamodeld */,
 			);
-			path = "Core Data";
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		25862808296ECC640090E662 /* Helpers */ = {
