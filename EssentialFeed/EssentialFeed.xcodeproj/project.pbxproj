@@ -35,6 +35,7 @@
 		25E5FB09296EB6C7009632C4 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E5FB08296EB6C7009632C4 /* LocalFeedImage.swift */; };
 		25F1AABF297AADCA00B20BC5 /* EssentialFeediOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = 25F1AABE297AADCA00B20BC5 /* EssentialFeediOS.docc */; };
 		25F1AAC5297AADCB00B20BC5 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F1AABB297AADC900B20BC5 /* EssentialFeediOS.framework */; };
+		25F1AAD3297AC46B00B20BC5 /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1AAD2297AC46B00B20BC5 /* FeedViewControllerTests.swift */; };
 		25FD7E952955AE2A0080CA69 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 25FD7E942955AE2A0080CA69 /* EssentialFeed.docc */; };
 		25FD7E9B2955AE2B0080CA69 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD7E902955AE2A0080CA69 /* EssentialFeed.framework */; };
 		25FD7EA02955AE2B0080CA69 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FD7E9F2955AE2B0080CA69 /* LoadFeedFromRemoteUseCaseTests.swift */; };
@@ -111,6 +112,7 @@
 		25F1AABB297AADC900B20BC5 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F1AABE297AADCA00B20BC5 /* EssentialFeediOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeediOS.docc; sourceTree = "<group>"; };
 		25F1AAC4297AADCA00B20BC5 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F1AAD2297AC46B00B20BC5 /* FeedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerTests.swift; sourceTree = "<group>"; };
 		25FD7E902955AE2A0080CA69 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FD7E932955AE2A0080CA69 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		25FD7E942955AE2A0080CA69 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 		25F1AAC8297AADCB00B20BC5 /* EssentialFeediOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				25F1AAD2297AC46B00B20BC5 /* FeedViewControllerTests.swift */,
 			);
 			path = EssentialFeediOSTests;
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 					};
 					25F1AAC3297AADCA00B20BC5 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					25FD7E8F2955AE2A0080CA69 = {
 						CreatedOnToolsVersion = 14.2;
@@ -616,6 +620,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F1AAD3297AC46B00B20BC5 /* FeedViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -798,16 +803,23 @@
 		25F1AACE297AADCB00B20BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93RW74SNFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = es.jorgifumi.EssentialFeediOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -816,11 +828,17 @@
 		25F1AACF297AADCB00B20BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93RW74SNFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = es.jorgifumi.EssentialFeediOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
