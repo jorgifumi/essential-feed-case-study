@@ -38,6 +38,7 @@
 		25F1AAD3297AC46B00B20BC5 /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1AAD2297AC46B00B20BC5 /* FeedViewControllerTests.swift */; };
 		25F1AAD5297E836300B20BC5 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD7E902955AE2A0080CA69 /* EssentialFeed.framework */; platformFilter = ios; };
 		25F1AAD6297E836300B20BC5 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD7E902955AE2A0080CA69 /* EssentialFeed.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25F1AADB297E864900B20BC5 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FD7EBA295C42D60080CA69 /* XCTestCase+MemoryLeakTracking.swift */; };
 		25FD7E952955AE2A0080CA69 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 25FD7E942955AE2A0080CA69 /* EssentialFeed.docc */; };
 		25FD7E9B2955AE2B0080CA69 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD7E902955AE2A0080CA69 /* EssentialFeed.framework */; };
 		25FD7EA02955AE2B0080CA69 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FD7E9F2955AE2B0080CA69 /* LoadFeedFromRemoteUseCaseTests.swift */; };
@@ -655,6 +656,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25F1AAD3297AC46B00B20BC5 /* FeedViewControllerTests.swift in Sources */,
+				25F1AADB297E864900B20BC5 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
