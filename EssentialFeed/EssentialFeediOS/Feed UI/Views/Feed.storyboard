@@ -80,6 +80,9 @@ Location</string>
                                                             <buttonConfiguration key="configuration" style="plain" title="↻">
                                                                 <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                             </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="retryButtonTapped" destination="yte-XO-jcs" eventType="touchUpInside" id="hSh-0R-hp7"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -121,6 +124,14 @@ Location</string>
                                         <constraint firstAttribute="trailingMargin" secondItem="8f2-m5-vHU" secondAttribute="trailing" id="mRI-ip-OvG"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="M9u-RO-dY2" id="8Zl-nS-CGI"/>
+                                    <outlet property="feedImageContainer" destination="SRo-OR-035" id="gwV-C1-KVg"/>
+                                    <outlet property="feedImageRetryButton" destination="bRU-IF-7jh" id="jqX-rb-m6R"/>
+                                    <outlet property="feedImageView" destination="qbT-QG-CTQ" id="TJN-aN-BFM"/>
+                                    <outlet property="locationContainer" destination="fqo-hr-OpO" id="gfR-He-aEY"/>
+                                    <outlet property="locationLabel" destination="gx7-Ip-tZt" id="C8J-L4-Tyt"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
