@@ -18,7 +18,24 @@
                         <view key="tableHeaderView" contentMode="scaleToFill" id="YwW-NH-qs6" customClass="ErrorView" customModule="EssentialFeediOS" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="393" height="16"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dh-k8-9pm">
+                                    <rect key="frame" x="0.0" y="8" width="393" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.99951404330000004" green="0.41759261489999999" blue="0.4154433012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="9dh-k8-9pm" secondAttribute="bottom" constant="8" id="5WL-3F-Zhf"/>
+                                <constraint firstItem="9dh-k8-9pm" firstAttribute="top" secondItem="YwW-NH-qs6" secondAttribute="top" constant="8" id="CPf-SR-LUt"/>
+                                <constraint firstItem="9dh-k8-9pm" firstAttribute="leading" secondItem="YwW-NH-qs6" secondAttribute="leading" id="Z59-4A-aEk"/>
+                                <constraint firstAttribute="trailing" secondItem="9dh-k8-9pm" secondAttribute="trailing" id="diJ-C8-hWy"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="label" destination="9dh-k8-9pm" id="LBN-TM-Coh"/>
+                            </connections>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="MjN-Az-3eQ">
                             <rect key="frame" x="0.0" y="674" width="393" height="16"/>
