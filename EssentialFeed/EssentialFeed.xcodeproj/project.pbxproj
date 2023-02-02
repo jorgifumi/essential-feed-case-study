@@ -56,6 +56,7 @@
 		25636FAB298BB844008759D5 /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25636FAA298BB844008759D5 /* FeedLoaderPresentationAdapter.swift */; };
 		25636FAD298BB8AB008759D5 /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25636FAC298BB8AB008759D5 /* FeedViewAdapter.swift */; };
 		25636FB2298BD31B008759D5 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25636FB1298BD31B008759D5 /* ErrorView.swift */; };
+		25636FB5298BD99F008759D5 /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25636FB4298BD99F008759D5 /* FeedErrorViewModel.swift */; };
 		25862807296ECB140090E662 /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25862806296ECB140090E662 /* LoadFeedFromCacheUseCaseTests.swift */; };
 		2586280A296ECC790090E662 /* FeedStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25862809296ECC790090E662 /* FeedStoreSpy.swift */; };
 		25E5FB07296EB650009632C4 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E5FB06296EB650009632C4 /* RemoteFeedItem.swift */; };
@@ -187,6 +188,7 @@
 		25636FAA298BB844008759D5 /* FeedLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
 		25636FAC298BB8AB008759D5 /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
 		25636FB1298BD31B008759D5 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		25636FB4298BD99F008759D5 /* FeedErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedErrorViewModel.swift; sourceTree = "<group>"; };
 		25862806296ECB140090E662 /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		25862809296ECC790090E662 /* FeedStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpy.swift; sourceTree = "<group>"; };
 		25E5FB06296EB650009632C4 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
@@ -401,6 +403,7 @@
 				25636F8E29891207008759D5 /* FeedPresenter.swift */,
 				25636F8B29840AFD008759D5 /* FeedImageViewModel.swift */,
 				25636F902989337A008759D5 /* FeedImagePresenter.swift */,
+				25636FB4298BD99F008759D5 /* FeedErrorViewModel.swift */,
 				25636F9E298A97D3008759D5 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
@@ -836,6 +839,7 @@
 				25F1AADF297EA4AD00B20BC5 /* FeedImageCell.swift in Sources */,
 				25636FA9298BB7D8008759D5 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				25636FAD298BB8AB008759D5 /* FeedViewAdapter.swift in Sources */,
+				25636FB5298BD99F008759D5 /* FeedErrorViewModel.swift in Sources */,
 				25636FA7298BB75E008759D5 /* WeakRefVirtualProxy.swift in Sources */,
 				25F1AABF297AADCA00B20BC5 /* EssentialFeediOS.docc in Sources */,
 			);
