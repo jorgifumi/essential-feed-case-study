@@ -5,8 +5,7 @@
 //  Created by Jorge Lucena on 25/1/23.
 //
 
-import UIKit
-import EssentialFeed
+import Foundation
 
 public protocol FeedImageDataLoaderTask {
     func cancel()
