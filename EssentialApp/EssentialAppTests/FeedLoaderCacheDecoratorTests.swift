@@ -22,14 +22,14 @@ final class FeedLoaderCacheDecorator: FeedLoader {
 
 final class FeedLoaderCacheDecoratorTests: XCTestCase, FeedLoaderTestCase {
 
-    func test_deliversFeedOnLoaderSuccess() {
+    func test_load_deliversFeedOnLoaderSuccess() {
         let feed = uniqueFeed()
         let sut = makeSUT(loaderResult: .success(feed))
 
         expect(sut, toCompleteWith: .success(feed))
     }
 
-    func test_deliversErrorOnLoaderFailure() {
+    func test_load_deliversErrorOnLoaderFailure() {
         let sut = makeSUT(loaderResult: .failure(anyNSError()))
 
         expect(sut, toCompleteWith: .failure(anyNSError()))
