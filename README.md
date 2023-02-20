@@ -1,6 +1,8 @@
 # Essential Feed App – Image Feed Feature
 
-[![Build Status](https://app.travis-ci.com/jorgifumi/essential-feed-case-study.svg?branch=main)](https://app.travis-ci.com/jorgifumi/essential-feed-case-study)
+![](https://github.com/essentialdevelopercom/essential-feed-case-study/workflows/CI-iOS/badge.svg)
+
+![](https://github.com/essentialdevelopercom/essential-feed-case-study/workflows/CI-macOS/badge.svg)
 
 ## BDD Specs
 
