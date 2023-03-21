@@ -20,7 +20,7 @@
 		250AE4F2299CDB500008A0C2 /* UIRefreshControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AE4E7299CDB4F0008A0C2 /* UIRefreshControl+TestHelpers.swift */; };
 		250AE4F3299CDB500008A0C2 /* FeedImageCell+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AE4E5299CDB4E0008A0C2 /* FeedImageCell+TestHelpers.swift */; };
 		250AE4F4299CDB500008A0C2 /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AE4ED299CDB500008A0C2 /* UIImage+TestHelpers.swift */; };
-		250AE4F5299CDB500008A0C2 /* FeedViewControllerTests+LoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AE4E9299CDB4F0008A0C2 /* FeedViewControllerTests+LoaderSpy.swift */; };
+		250AE4F5299CDB500008A0C2 /* FeedUIIntegrationTests+LoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AE4E9299CDB4F0008A0C2 /* FeedUIIntegrationTests+LoaderSpy.swift */; };
 		250AE4F6299CDB500008A0C2 /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AE4EA299CDB4F0008A0C2 /* UIButton+TestHelpers.swift */; };
 		250AE4F8299CDB810008A0C2 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AE4F7299CDB810008A0C2 /* FeedUIIntegrationTests.swift */; };
 		250AE4FA299CDDB80008A0C2 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250AE4F9299CDDB80008A0C2 /* FeedAcceptanceTests.swift */; };
@@ -77,7 +77,7 @@
 		250AE4E6299CDB4E0008A0C2 /* ListViewController+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+TestHelpers.swift"; sourceTree = "<group>"; };
 		250AE4E7299CDB4F0008A0C2 /* UIRefreshControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TestHelpers.swift"; sourceTree = "<group>"; };
 		250AE4E8299CDB4F0008A0C2 /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
-		250AE4E9299CDB4F0008A0C2 /* FeedViewControllerTests+LoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+LoaderSpy.swift"; sourceTree = "<group>"; };
+		250AE4E9299CDB4F0008A0C2 /* FeedUIIntegrationTests+LoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedUIIntegrationTests+LoaderSpy.swift"; sourceTree = "<group>"; };
 		250AE4EA299CDB4F0008A0C2 /* UIButton+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TestHelpers.swift"; sourceTree = "<group>"; };
 		250AE4EB299CDB4F0008A0C2 /* FeedViewControllerTests+Assertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+Assertions.swift"; sourceTree = "<group>"; };
 		250AE4ED299CDB500008A0C2 /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 				250AE4E8299CDB4F0008A0C2 /* UIControl+TestHelpers.swift */,
 				250AE4E6299CDB4E0008A0C2 /* ListViewController+TestHelpers.swift */,
 				250AE4E5299CDB4E0008A0C2 /* FeedImageCell+TestHelpers.swift */,
-				250AE4E9299CDB4F0008A0C2 /* FeedViewControllerTests+LoaderSpy.swift */,
+				250AE4E9299CDB4F0008A0C2 /* FeedUIIntegrationTests+LoaderSpy.swift */,
 				250AE4EB299CDB4F0008A0C2 /* FeedViewControllerTests+Assertions.swift */,
 				251D618B2996588B00D440D2 /* XCTestCase+MemoryLeakTracking.swift */,
 				251D618D2996596A00D440D2 /* SharedTestHelpers.swift */,
@@ -331,7 +331,7 @@
 				250AE4FA299CDDB80008A0C2 /* FeedAcceptanceTests.swift in Sources */,
 				251D618C2996588B00D440D2 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				250AE4F8299CDB810008A0C2 /* FeedUIIntegrationTests.swift in Sources */,
-				250AE4F5299CDB500008A0C2 /* FeedViewControllerTests+LoaderSpy.swift in Sources */,
+				250AE4F5299CDB500008A0C2 /* FeedUIIntegrationTests+LoaderSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
